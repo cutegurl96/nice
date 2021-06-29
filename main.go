@@ -1,4 +1,4 @@
-package main
+package gogit
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ type ContactDetails struct {
 	Message string
 }
 
-func NamaSaya() {
+func Gogit() {
 	fmt.Println("hello world")
 
 	tmpl := template.Must(template.ParseFiles("form.html"))
