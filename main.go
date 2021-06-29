@@ -12,7 +12,7 @@ type ContactDetails struct {
 	Message string
 }
 
-func Ahmad() {
+func NamaSaya() {
 	fmt.Println("hello world")
 
 	tmpl := template.Must(template.ParseFiles("form.html"))
